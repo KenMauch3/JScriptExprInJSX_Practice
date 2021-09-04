@@ -1,3 +1,16 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+const name = "Ken Mauch";
+const year = new Date().getFullYear();
+ReactDOM.render(
+  <div>
+    <p>Created by {name}.</p>
+    <p>Copyright {year}.</p>
+  </div>,
+  document.getElementById("root")
+);
+
 //Create a react app from scratch.
 //It should display 2 paragraph HTML elements.
 //The paragraphs should say:
